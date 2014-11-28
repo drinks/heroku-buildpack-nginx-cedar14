@@ -4,8 +4,8 @@
 set -e
 
 # config
-NGINX_VERSION="1.5.10"
-S3_BUCKET="heroku-buildpack-nginx-binaries"
+NGINX_VERSION="1.6.0-heroku-ssl"
+S3_BUCKET="nvite-heroku-vendored-binaries"
 
 # parse and derive params
 BUILD_DIR=$1
