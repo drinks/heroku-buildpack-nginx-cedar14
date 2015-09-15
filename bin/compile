@@ -4,7 +4,7 @@
 set -e
 
 # config
-NGINX_VERSION="1.6.0-heroku-ssl"
+NGINX_VERSION="1.6.3-heroku-cedar-14"
 S3_BUCKET="nvite-heroku-vendored-binaries"
 
 # parse and derive params
